@@ -10,3 +10,8 @@ big_dogs = ["german_shepherd", "great_dane", "mastif"]
 big_dogs.each do |big_dogs|
   puts "This big_dogs wants to kiss you!
 end
+
+big_dogs = ["german_shepherd", "great_dane", "mastif"]
+big_dogs.collect do |big_dogs|
+  puts "This big_dogs wants to kiss you!
+end
